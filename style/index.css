@@ -1,3 +1,24 @@
 *{
     box-sizing: border-box;
 }
+
+@keyframes backgroundColorAnimation{
+    from{
+        background-color:red;
+    }
+    to{
+        background-color: blue;
+    }
+
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    margin: 40px 30px;
+    border: 1px solid #333;
+
+    background-color: #ccc;
+    animation-name: backgroundColorAnimation;
+    animation-duration: 2s;
+}
