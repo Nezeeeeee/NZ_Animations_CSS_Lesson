@@ -5,18 +5,11 @@
 @keyframes backgroundColorAnimation{
     from{
         background-color:red;
-    }
-    25%{
-        background-color: yellow;
-    }
-    50%{
-        background-color: green;
-    }
-    75%{
-        background-color: blue;
+        opacity: 0.2;
     }
     to{
-        background-color: violet;
+        background-color: blue;
+        opacity: 0.9;
     }
 
 }
