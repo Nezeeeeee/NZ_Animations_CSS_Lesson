@@ -32,7 +32,9 @@ div{
 
     background-color: #ccc;
 
-    animation-name: backgroundColorAnimation,opacityAnimation;
-    animation-duration: 2s,2s;
+    animation-name: backgroundColorAnimation;
+    animation-duration: 5s;
+    animation-delay: 1s;
+
 }
 
