@@ -6,8 +6,17 @@
     from{
         background-color:red;
     }
-    to{
+    25%{
+        background-color: yellow;
+    }
+    50%{
+        background-color: green;
+    }
+    75%{
         background-color: blue;
+    }
+    to{
+        background-color: violet;
     }
 
 }
